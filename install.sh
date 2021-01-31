@@ -29,8 +29,8 @@ else
 echo -e "version anda tidak terdeteksi!"
 exit
 fi
-wget --no-check-certificate "https://raw.githubusercontent.com/wegare123/sst1/main/sst1.sh" -O /usr/bin/sst1
-wget --no-check-certificate "https://raw.githubusercontent.com/wegare123/sst1/main/autorekonek-sst1.sh" -O /usr/bin/autorekonek-sst1
+wget --no-check-certificate "https://raw.githubusercontent.com/bayualhaq/sst1/main/sst1.sh" -O /usr/bin/sst1
+wget --no-check-certificate "https://raw.githubusercontent.com/bayualhaq/sst1/main/autorekonek-sst1.sh" -O /usr/bin/autorekonek-sst1
 opkg install ip-full && opkg install *.ipk && opkg install lsof && opkg install fping
 chmod +x /usr/bin/sst1
 chmod +x /usr/bin/autorekonek-sst1
